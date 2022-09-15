@@ -1,0 +1,83 @@
+.cnt-form {
+  width: 500px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+form {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+form label {
+  font-size: 14px;
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+form input {
+  width: 400px;
+  padding: 6px;
+  border: 1px solid #c0c6cc;
+  border-radius: 3px;
+  margin-top: 3px;
+  font-size: 16px;
+}
+
+form input:focus {
+  outline: none;
+  border: 1px solid #000;
+}
+
+.options-form {
+  display: flex;
+  justify-content: center;
+}
+
+.options-form button {
+  margin: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+#save {
+  background-color: #002458;
+}
+
+#cancel {
+  background-color: #0284fe;
+}
+
+@media (max-width: 400px) {
+  .cnt-form {
+    width: 100%;
+    height: 500px;
+  }
+
+  #form {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #form label {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  #form input {
+    width: 100%;
+    padding: 10px 4px;
+    margin-top: 4px;
+    font-size: 18px;
+  }
+}

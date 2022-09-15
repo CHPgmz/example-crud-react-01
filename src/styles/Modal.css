@@ -1,0 +1,145 @@
+.Overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+.OverlayDelete {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+.container-modal {
+  width: 500px;
+  height: 400px;
+  background: #fff;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+}
+
+.container-delete {
+  width: 400px;
+  height: 150px;
+  background: #fff;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.header h3 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #1766dc;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  background: #000;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  border-radius: 5px;
+  color: #1766dc;
+}
+button.close:hover {
+  background: #f2f2f2;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenido-eliminar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contenido-eliminar button {
+  padding: 8px 20px;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.contenido h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.contenido p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/*.contenido img {
+  width: 100%;
+  vertical-align: top;
+  border-radius: 3px;
+}*/
+
+@media (max-width: 400px) {
+  .container-modal {
+    width: 100vw;
+    /*height: 700px;*/
+  }
+
+  .contenido {
+    width: 100vw;
+  }
+
+  .modal-form {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .modal-form label {
+    font-size: 18px;
+  }
+
+  .modal-form input {
+    width: 90%;
+    padding: 10px 4px;
+    font-size: 16px;
+  }
+}

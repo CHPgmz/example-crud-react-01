@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Lato, sans-serif;
+  background-color: #cbccd3;
+}
+
+.cnt-cliente {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 400px) {
+  .cnt-cliente {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}

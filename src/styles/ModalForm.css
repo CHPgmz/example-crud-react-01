@@ -1,0 +1,34 @@
+.modal-form label {
+  font-weight: 500;
+  font-size: 15px;
+  color: black;
+  margin-top: 2px;
+}
+
+.modal-form input {
+  margin-bottom: 5px;
+}
+
+.modal-form-actions button {
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 7px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.modal-form-actions button:hover {
+  background: yellow;
+  color: #000;
+}
+
+.modal-form-actions .modal-btn-editar {
+  background: blue;
+}
+
+.modal-btn-cancelar {
+  background: red;
+  margin-left: 10px;
+}

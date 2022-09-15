@@ -1,0 +1,85 @@
+.cnt-clientes {
+  width: 600px;
+  min-height: 70px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+#clt {
+  text-align: center;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 10px 0;
+}
+
+table {
+  border-collapse: collapse;
+  /*border: 1px solid #000;*/
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.table-cnt {
+  min-width: calc(95% / 4);
+}
+.table-cnt button {
+  padding: 4px 7px;
+  border: none;
+  margin: 0 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.table-cnt button:hover {
+  /*border: 1px solid #78909c;*/
+  background: rgb(150, 250, 200);
+}
+
+.table-id {
+  min-width: 5%;
+}
+
+.table-cnt .btn-editar {
+  background-color: #40c4ff;
+}
+
+.table-cnt .btn-eliminar {
+  background-color: #ff1744;
+}
+
+td,
+th {
+  text-align: center;
+}
+
+thead tr {
+  background-color: #6c7ae0;
+  color: #fff;
+  height: 40px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+tbody tr {
+  height: 40px;
+}
+
+@media (max-width: 400px) {
+  .cnt-clientes {
+    margin-top: 30px;
+    width: 100vw;
+  }
+  .table-actions {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+  }
+
+  .table-actions button {
+    margin: 2px 0;
+  }
+}
