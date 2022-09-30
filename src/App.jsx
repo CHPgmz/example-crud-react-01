@@ -53,14 +53,14 @@ function useHookCliente() {
     //console.log(clienteSelect);
   };
 
-  const editar = () => {
+  const editar = (data) => {
     let dataNueva = cliente;
     dataNueva.map((cliente) => {
-      if (cliente.id === clienteSelect.id) {
-        cliente.firstname = clienteSelect.firstname;
-        cliente.lastname = clienteSelect.lastname;
-        cliente.phone = clienteSelect.phone;
-        cliente.age = clienteSelect.age;
+      if (cliente.id === data.id) {
+        cliente.firstname = data.firstname;
+        cliente.lastname = data.lastname;
+        cliente.phone = data.phone;
+        cliente.age = data.age;
       }
     });
     setClienteNuevo(dataNueva);

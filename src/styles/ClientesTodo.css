@@ -71,6 +71,7 @@ tbody tr {
 @media (max-width: 400px) {
   .cnt-clientes {
     margin-top: 30px;
+    margin-bottom: 50px;
     width: 100vw;
   }
   .table-actions {
@@ -80,6 +81,19 @@ tbody tr {
   }
 
   .table-actions button {
+    padding: 5px 10px;
     margin: 2px 0;
+  }
+}
+
+@media (min-width: 400px) {
+  .cnt-clientes {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 720px) {
+  .cnt-clientes {
+    margin-top: 0;
   }
 }

@@ -10,6 +10,7 @@
   align-items: top;
   justify-content: center;
 }
+
 .OverlayDelete {
   width: 100vw;
   height: 100vh;
@@ -25,7 +26,7 @@
 
 .container-modal {
   width: 500px;
-  height: 400px;
+  height: 450px;
   background: #fff;
   position: relative;
   border-radius: 5px;
@@ -118,7 +119,7 @@ button.close:hover {
 @media (max-width: 400px) {
   .container-modal {
     width: 100vw;
-    /*height: 700px;*/
+    height: 450px;
   }
 
   .contenido {

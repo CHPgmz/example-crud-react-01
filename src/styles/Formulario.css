@@ -71,7 +71,7 @@ form input:focus {
   }
   #form label {
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   #form input {
@@ -79,5 +79,10 @@ form input:focus {
     padding: 10px 4px;
     margin-top: 4px;
     font-size: 18px;
+  }
+
+  .options-form button {
+    width: 120px;
+    padding: 13px 0;
   }
 }

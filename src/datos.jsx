@@ -16,22 +16,22 @@ export const Clientes = [
 
     },{
         id: 3,
-        firstname: 'David',
-        lastname: 'Moreno Hernandez',
+        firstname: 'Eldon',
+        lastname: 'Anderson',
         phone: 9191234233,
         age: 24,
 
     },{
         id: 4,
-        firstname: 'Damian',
-        lastname: 'Torrez Lopez',
+        firstname: 'Uriel',
+        lastname: 'Torrez Mosciski',
         phone: 97272992,
         age: 21,
 
     },{
         id: 5,
-        firstname: 'Marco',
-        lastname: 'Santiz Lopez',
+        firstname: 'Alphonso',
+        lastname: 'Santiz Becker',
         phone: 97272992,
         age: 21,
 

@@ -1,9 +1,14 @@
 #header {
-	background-color: grey;
-	padding: 10px 0;
+  padding: 10px 0;
 }
 
 #home {
-	text-align: center;
-	font-size: 22px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  color: #000;
+  font-weight: 600;
+  padding: 4px;
+  border: 1px solid #fff;
 }

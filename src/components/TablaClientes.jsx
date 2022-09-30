@@ -9,7 +9,6 @@ export const TablaClientes = ({ operations }) => {
     modalEliminar,
     seleccionarCliente,
     clienteSelect,
-    handleChange,
     editar,
     eliminarCliente
   } = operations;
@@ -59,7 +58,7 @@ export const TablaClientes = ({ operations }) => {
         <div className='contenido'>
           <ModalForm
             cliente={clienteSelect}
-            onchange={handleChange}
+  //          onchange={handleChange}
             editar={editar}
             modal={modalEditar}
           />

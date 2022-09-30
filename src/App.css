@@ -18,10 +18,8 @@ body {
   justify-content: space-evenly;
 }
 
-@media (max-width: 400px) {
+@media screen(max-width: 400px) {
   .cnt-cliente {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    margin-top: 30px;
   }
 }

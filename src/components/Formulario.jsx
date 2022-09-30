@@ -37,7 +37,7 @@ export const Formulario = ({
 
   return (
     <div className='cnt-form'>
-      <h1 id='title-form'>Formulario</h1>
+      <h2 id='title-form'>Formulario</h2>
       <form id='form' onSubmit={handleSubmit(onSubmit)}>
         <label htmlFor=''>Nombre</label>
         <input
@@ -73,7 +73,7 @@ export const Formulario = ({
 
         <div className='options-form'>
           <button id='save' type='submit'>
-            Guadar
+            Guardar
           </button>
           <button
             id='cancel'
